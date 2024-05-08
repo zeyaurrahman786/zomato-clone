@@ -10,21 +10,21 @@ const Header = () => {
         <div className='header-location-search-container'>
           <div className='location-wrapper'>
             <div className='location-icon-name'>
-              <i class="ri-map-pin-fill absolute-center location-icon"></i>
+              <i className="ri-map-pin-fill absolute-center location-icon"></i>
               <div>Bhopal</div>
             </div>
-            <i class="ri-arrow-down-s-fill absolute-center"></i>
+            <i className="ri-arrow-down-s-fill absolute-center"></i>
           </div>
           <div className='location-search-separator'></div>
           <div className='header-search-bar'>
-          <i class="ri-search-line absolute-center search-icon"></i>
+          <i className="ri-search-line absolute-center search-icon"></i>
           <input type="text" placeholder='Search for restaurant, cuisine or a dish' className='search-input' />
           </div>
         </div>
         <div className='profile-wrapper'>
-        <i class="ri-user-fill header-profile-icon"></i>
+        <img className='profile-wrapper-image' src="https://b.zmtcdn.com/web/assets/2267aec184e096c98c46a1565a5563661664945464.png?fit=around%7C100%3A100&crop=100%3A100%3B%2A%2C%2A" alt="user-logo"/>
           <span className='header-user-name'>Zeyaur</span>
-          <i class="ri-arrow-down-s-line absolute-center profile-options-icon"></i>
+          <i className="ri-arrow-down-s-line absolute-center profile-options-icon"></i>
         </div>
       </div>
     </div>

@@ -8,20 +8,21 @@ import Nightlife from '../../components/nightlife';
 
 const HomePage = () => {
 
-    const [activeTab, setActiveTab] = useState("Delivery");
+    const [activeTab, setActiveTab] =useState("Delivery");
 
-  return (
-    <div>
-        <Header />
-        <TabOptions activeTab={activeTab} setActiveTab={setActiveTab} />
-        {getCorrectScreen(activeTab)}
-        <Footer />
-    </div>
-  )
+    return (
+        <div>
+            <Header />
+            <TabOptions activeTab={activeTab} setActiveTab={setActiveTab} />
+            {getCorrectScreen(activeTab)}
+            <Footer />
+        </div>
+    )
 }
 
 const getCorrectScreen = (tab) => {
-    switch(tab) {
+    switch (tab) 
+    {
         case "Delivery":
             return <Delivery />
         case "Dining Out":

@@ -71,3 +71,25 @@
     font-size: 14px;
 }
 
+.profile-wrapper{
+    display: flex;
+    /* justify-content: space-evenly; */
+    width: 15%;
+    align-items: center;
+}
+
+.profile-wrapper-image{
+    height: 40px;
+    width: 40px;
+    /* border-radius: 50%; */
+}
+
+.header-user-name{
+    font-size: 16px;
+    font-weight: 600;
+    margin: 0px 5px;
+}
+
+.profile-options-icon{
+    font-size: 20px;
+}
